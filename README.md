@@ -23,7 +23,40 @@ This assignment will be done in a MacOS environment.
 
 4) Check and Install Serverless Locally:
     - Verify Installation
-          serverless --version
+-        serverless --version
     - If not installed, run:
-      -     npm install serverless -g
+-        npm install serverless -g
+    - Log in to Serverless, by running:
+-        serverless
+  Choose "Login/Register" and follow the link to log in to serverless.com.
+
+5) Install Plugins and Node Packages:
+
+    - Install the serverless-offline plugin:
+-        npm install serverless-offline --save-dev
+Initialize a Node package:
+-        npm init
+
+6) Deploy the Serverless App:
+
+    - Deploy the app to AWS with:
+-        serverless deploy
+After deployment, check the endpoint URL and use curl to test the API response.
+
+7) Verify AWS Resources:
+    - Check AWS Console for the created resources (API Gateway, Lambda, DynamoDB, CloudFormation).
+    - View application metrics on Serverless.com.
+
+8) View Serverless CLI Help:
+
+    - For a list of commands, use:
+-        serverless --help
+
+9) Run Locally:
+    - To run the Serverless app locally, use:
+-        serverless offline
+
+10) Remove AWS Resources:
+    - To remove the serverless setup from AWS, run:
+-        serverless remove
 
