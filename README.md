@@ -23,7 +23,7 @@ This assignment will be done in a MacOS environment.
 
 4) Check and Install Serverless Locally:
     - Verify Installation
-      -     serverless --version
+          serverless --version
     - If not installed, run:
       -     npm install serverless -g
 
