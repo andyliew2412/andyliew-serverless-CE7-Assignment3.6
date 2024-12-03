@@ -1,4 +1,5 @@
 **Module 3 : Assignment 3.6**
+
 Create a serverless node application and deploy to AWS Services (API Gateway, AWS cloudFormation, AWS Lambda and AWS DynamoDB)
 Refer to below steps & tools required for Serverless Setup
 
@@ -59,4 +60,5 @@ After deployment, check the endpoint URL and use curl to test the API response.
 10) Remove AWS Resources:
     - To remove the serverless setup from AWS, run:
 -        serverless remove
+![4337EAC9-37C9-467F-A41C-48D5CC33AA90](https://github.com/user-attachments/assets/3100f084-195f-410f-8465-c8f149ce21d1)
 
